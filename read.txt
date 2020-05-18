@@ -1,0 +1,25 @@
+BACKEND-
+_____________________________________________________________
+
+1-bcryptjs: used to hash passwords before we store them in our database
+2-body-parser: used to parse incoming request bodies in a middleware
+3-concurrently: allows us to run our backend and frontend concurrently and on different ports
+4-express: sits on top of Node to make the routing, request handling, and responding easier to write
+5-is-empty: global function that will come in handy when we use validator
+6-jsonwebtoken: used for authorization
+7-mongoose: used to interact with MongoDB
+8-passport: used to authenticate requests, which it does through an extensible set of plugins known as strategies
+9-passport-jwt: passport strategy for authenticating with a JSON Web Token (JWT); lets you authenticate endpoints using a JWT
+10-validator: used to validate inputs (e.g. check for valid email format, confirming passwords match)
+_____________________________________________________________________
+
+FRONTEND-
+____________________________________________________
+
+1-axios: promise based HTTP client for making requests to our backend
+2-classnames: used for conditional classes in our JSX
+3-jwt-decode: used to decode our jwt so we can get user data from it
+4-react-redux: allows us to use Redux with React
+5-react-router-dom: used for routing purposes
+6-redux: used to manage state between components (can be used with React or any other view library)
+7-redux-thunk: middleware for Redux that allows us to directly access the dispatch method to make asynchronous calls from our actions
