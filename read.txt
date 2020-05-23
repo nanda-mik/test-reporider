@@ -23,3 +23,5 @@ ____________________________________________________
 5-react-router-dom: used for routing purposes
 6-redux: used to manage state between components (can be used with React or any other view library)
 7-redux-thunk: middleware for Redux that allows us to directly access the dispatch method to make asynchronous calls from our actions
+
+utygyiuhkuilmk
