@@ -22,6 +22,8 @@ require("./config/passport")(passport);
 
 app.use("/api/users", users);
 
+const cors = 6000;
+
 const port = 5000;
 
 app.listen(port, () => console.log("server up"));
